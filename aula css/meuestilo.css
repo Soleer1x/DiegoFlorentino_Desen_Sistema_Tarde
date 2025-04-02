@@ -21,10 +21,12 @@ li {
 
 body {
     background: silver;
+    font: Arial black;
 }
 
 p {
     color: green;
     font-style: italic;
+    font: monotype corsiva;
 }
 
