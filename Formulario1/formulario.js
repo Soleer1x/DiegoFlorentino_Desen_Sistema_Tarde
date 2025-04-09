@@ -4,11 +4,11 @@ function mascara(o, f) {
     //define o objeto que chama função
     Objeto=0
     funcao=f
-    setTimeout "executaMascara()",1
+    setTimeout ("executaMascara()",1)
 }
 
 function executaMascara() {
-    Object.value=funcao Objeto.value
+    Object.value=funcao (Objeto.value)
 }
 
 //mascaras
@@ -27,6 +27,7 @@ function RGeCPF(variavel) {
     variavel=variavel.replace (/(\d{3})(\d)/,"$1.$2")
     variavel=variavel.replace (/(\d{3})(\d)/,"$1.$2")
     variavel=variavel.replace (/(\d{3})(\d{1,2})$/,"$1-$2")
+    return variavel
 }
 
 //mascaro do CEP
@@ -42,4 +43,5 @@ function data(variavel) {
     variavel=variavel.replace (/\D/g,"")
     variavel=variavel.replace (/(\d{2})(\d)/,"$1/$2")
     variavel=variavel.replace (/(\d{2})(\d)/,"$1/$2")
+    return variavel
 }
