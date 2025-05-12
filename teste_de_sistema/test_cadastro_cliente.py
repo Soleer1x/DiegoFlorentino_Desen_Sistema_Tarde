@@ -29,4 +29,4 @@ submit_button.click()
 time.sleep(600)
 
 # fechar navegador
-#driver.quit()
+driver.quit()
