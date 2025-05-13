@@ -107,3 +107,4 @@ function mascaraCPF(input) {
     form.addEventListener("submit", validarFormulario);
   };
   
+  
